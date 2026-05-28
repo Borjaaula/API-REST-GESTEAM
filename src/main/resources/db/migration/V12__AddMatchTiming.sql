@@ -1,0 +1,2 @@
+ALTER TABLE matches ADD COLUMN live_started_at BIGINT NULL;
+ALTER TABLE match_events ADD COLUMN second INT NOT NULL DEFAULT 0;
